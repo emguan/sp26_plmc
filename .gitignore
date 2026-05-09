@@ -1,0 +1,5 @@
+data_raw
+eval_results
+data
+*.venv
+__pycache__
