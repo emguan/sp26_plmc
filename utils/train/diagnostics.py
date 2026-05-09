@@ -1,5 +1,3 @@
-"""Compatibility wrappers for diagnostics now integrated into :mod:`utils.model`."""
-
 from __future__ import annotations
 
 from utils.preprocessing import AA_ALPHABET, decode_sequences, flatten_samples

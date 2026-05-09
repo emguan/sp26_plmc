@@ -462,7 +462,7 @@ def fit_potts_plm_lbfgs(
     print("Final loss parts:", parts)
     print("Final conditional evaluation:", model.evaluation_summary(X, w))
 
-    # A few interpretable diagnostics
+    # a few interpretable diagnostics
     neglogp = parts["neglogp"]
     reg_h = parts["reg_h"]
     reg_J = parts["reg_J"]
@@ -516,7 +516,6 @@ if __name__ == "__main__":
         "NT_UNIQ": [1, 1],
     })
 
-    # Fixed pre-training sample weights
     df["W_TRAIN"] = df["AA_WEIGHT"].astype(float)
 
     model = fit_potts_plm_lbfgs(

@@ -1,5 +1,3 @@
-"""Evaluation utilities for trained Potts models and generated sequences."""
-
 from __future__ import annotations
 
 from typing import Any, Tuple

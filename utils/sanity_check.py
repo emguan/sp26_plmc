@@ -1,3 +1,5 @@
+""" note this file is not needed, simply for emily's sanity just to make sure shes not going crazy about the data"""
+
 import math
 
 from utils.preprocessing import AA_ALPHABET
